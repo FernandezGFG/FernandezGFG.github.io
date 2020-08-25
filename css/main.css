@@ -1,0 +1,78 @@
+main {
+    flex: 1 0 auto;
+}
+
+html{
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #F0F0F0;
+    height: 99vh;
+    /* Sticky Footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page-footer{
+    background-color: #22A49C;
+}
+
+.nav-btn{
+    width: 100%;
+    background-color: #00000000;
+    color: #133149;
+    font-weight: bold;
+    font-size: large;
+}
+
+#contact{
+    background-color: #FFA445;
+}
+
+.profile-panel{
+    height: 100%;
+    background-color: #133149;
+}
+
+.main-panel{
+    height: 100%;
+}
+
+.content{
+    height: 80%;
+    color: #0D0D0D;
+}
+
+.logo{
+    padding: 2vh;
+    font-weight: bold;
+    color: #F0F0F0;
+    font-size: xx-large;
+    height: 100%;
+}
+
+/* Fuentes */
+.main-title{
+    font-weight: bold;
+}
+
+.main-subtitle{
+    font-weight: normal;
+}
+
+.main-comment{
+    font-weight: lighter;
+    color: #C4226D;
+}
+
+.menu{
+    color: #22A49C;
+}
+
+.social-icon{
+    height: 80px;
+    padding: 1.5vh;
+}
